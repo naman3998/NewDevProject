@@ -1,0 +1,18 @@
+#left,
+#mid {
+    position: absolute;
+}
+
+#left {
+    left: 2%;
+}
+
+#mid {
+    left: 45%;
+}
+
+.table {
+    text-align: center;
+    margin: auto;
+    width: 50% !important;
+}

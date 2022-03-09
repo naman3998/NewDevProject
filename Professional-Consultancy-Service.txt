@@ -1,0 +1,17 @@
+Java Comprehensive Assessment******************
+
+PCS (Professional Consultancy Service)**************
+----------------------------------------------------------------------------
+1. Login-Page
+2.HR-Dashboard
+3.Employee-Dashboard
+4.Skills-Dashboard
+5.Certificates-Dashboard
+----------------------------------------------------------------------------
+Backend-Spring
+Frontend-Angular
+----------------------------------------------------------------------------
+# User Name and Password to login
+user-name: Guest
+password: user
+-----------------------------------------------------------------------------

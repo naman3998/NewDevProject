@@ -1,0 +1,31 @@
+<div class="card bg-light mb-3" style="max-width: 20rem; margin-top:20px; margin-left: 20px;">
+    <div class="card-header">Select your Skills</div>
+    <div class="card-body">
+
+
+        <form class=" form-group ">
+            <form (ngSubmit)="onSubmit()">
+
+
+
+                <select class="custom-select my-1 mr-sm-2 " id="inlineFormCustomSelectPref ">
+              <option selected>Select Skills</option>
+              <option value="1 ">Angular</option>
+              <option value="2 ">Java</option>
+              <option value="3 ">Python</option>
+              <option selected>Java Script </option>
+              <option value="1 ">Spring-Boot</option>
+              <option value="2 ">React</option>
+              <option value="3 ">TypeScript</option>
+            </select>
+
+                <div class="custom-control custom-checkbox my-1 mr-sm-2 ">
+                    <input type="checkbox " class="custom-control-input " id="customControlInline ">
+                    <label class="custom-control-label " for="customControlInline "></label>
+                </div>
+                <br>
+                <button type="submit " class="btn btn-primary my-1 ">Submit</button>
+            </form>
+        </form>
+    </div>
+</div>

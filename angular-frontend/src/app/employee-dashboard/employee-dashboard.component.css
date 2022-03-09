@@ -1,0 +1,12 @@
+#left,
+#mid {
+    position: absolute;
+}
+
+#left {
+    left: 2%;
+}
+
+#mid {
+    left: 50%;
+}

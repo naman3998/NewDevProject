@@ -1,0 +1,41 @@
+<div style="width: 100%;">
+    <nav class="navbar navbar-expand-sm bg-primary navbar-light">
+        <i class="far fa-id-card"></i>
+        <h2 style="color: white"><i class="bi bi-gear-fill" style="margin-left: 10px"></i> Certificates Dashboard</h2>
+    </nav>
+</div>
+<br>
+<div class="container" style="margin-bottom: 10px">
+    <div id="left">
+        <h2><button type="button" (click)="router.navigate(['/employees'])" class="btn btn-secondary "><i class="bi bi-skip-backward-fill"></i> Back to Dashboard</button> </h2>
+    </div>
+    <div id="mid">
+        <h2 class="text-center"> Employees Certificates</h2>
+    </div>
+
+    <br>
+</div>
+<br>
+<br>
+<div class="container" style="text-align:center">
+    <!-- <div style="overflow-x:auto;"> -->
+    <table class="table table-striped table-bordered table-responsive-md" style="margin-left: auto">
+        <thead class="thead-dark" style="background-color: black; color: white; padding: auto;">
+            <tr>
+                <th scope="col"> Certificate Id </th>
+
+                <th scope="col"> Certificate Name</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let cert of certificates">
+
+                <td> {{cert.certificateId}}</td>
+
+                <td> {{cert.certificateName}} </td>
+
+            </tr>
+        </tbody>
+    </table>
+</div>

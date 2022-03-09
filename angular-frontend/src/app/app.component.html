@@ -1,0 +1,88 @@
+<!-- <router-outlet></router-outlet> -->
+
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand">Professional Consultancy Services</a>
+        </div>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" style="cursor: pointer;" (click)=homeDash()>HR Dashboard</a>
+                </li>
+
+                <li class="nav-item"><a class="nav-link active" style="cursor: pointer;" aria-current="page" (click)=employeeDash()>Employees</a></li>
+
+                <li class="nav-item"><a class="nav-link active" style="cursor: pointer;" aria-current="page" (click)=skillsDash()>Skills</a></li>
+                <li class="nav-item"><a class="nav-link active" style="cursor: pointer;" aria-current="page" (click)=certificatesDash()>Certificates</a></li>
+            </ul>
+        </div>
+
+        <ul class="nav navbar-nav navbar-right">
+            <li><a class="nav-link active" aria-current="page"><i class="bi bi-person-fill" ></i>Welcome {{loggedinUser}}</a></li>
+            <li><a class="nav-link active" style="text-decoration: underline; cursor: pointer;" aria-current="page" (click)=doLogout()><i class="bi bi-person-x-fill"></i> Logout</a></li>
+
+        </ul>
+    </div>
+
+
+
+</nav>
+
+
+
+
+
+
+<!-- <nav class="navbar navbar-expand-sm bg-primary navbar-light">
+    <i class="far fa-id-card"></i>
+    <h2 style="color: white"><i class="bi bi-gear-fill" style="margin-left: 10px"></i> HR Dashboard</h2>
+     -->
+
+
+<!-- <ul class="navbar-nav">
+        <li class="nav-item">
+            Pkllklklklk
+        </li>
+        <li class="nav-item">
+            <a routerLink="employees" routerLinkActive="active" class="nav-link">Employee List</a>
+        </li>
+         <li class="nav-item">
+            <a routerLink="create-employee" routerLinkActive="active" class="nav-link">Add Employee</a>
+        </li> -->
+<!-- </ul>  -->
+
+
+
+<!-- </nav> -->
+
+<!-- <h1 class="text-center"> {{title}} </h1> -->
+<!-- <div class="container"> -->
+<router-outlet></router-outlet>
+<!-- </div> -->
+
+
+
+<footer class="fixed-bottom content container-fluid" style="background-color: #bdb8b8;color:black;height: 30px; margin-top: 10px; ">
+    <div class="container">
+        <span>All Rights Reserved 2021 @PCS</span>
+    </div>
+</footer>
+<!-- <footer class="footer">
+    <div class="container">
+        <span>All Rights Reserved 2020 @JavaGuides</span>
+    </div>
+</footer> -->
+
+
+
+
+<!-- <li class="nav-item">
+    <a routerLink="employees" routerLinkActive="active" class="nav-link">Employee List</a>
+</li> -->
